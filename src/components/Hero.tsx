@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Link } from "wouter";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto mb-10">
             Automatically generate reports from your data with speed and precision.
           </p>
-          <Link href="/signup">
+          <Link to="/signup">
             <Button 
               size="lg" 
               className="text-lg px-8 py-6 h-auto"
