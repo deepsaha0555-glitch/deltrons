@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import logo from "@assets/generated_images/Autoreport_AI_circular_logo_3fcdd3c3.png";
+import logo from "@assets/logo.png";
 
 export default function Navbar() {
   return (

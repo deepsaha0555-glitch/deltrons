@@ -16,7 +16,7 @@ import { FaGoogle } from "react-icons/fa";
 import { createUserWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { auth, googleProvider } from "@/lib/firebase";
 import { useToast } from "@/hooks/use-toast";
-import logo from "@assets/generated_images/Autoreport_AI_circular_logo_3fcdd3c3.png";
+import logo from "@assets/logo.png";
 
 export default function Signup() {
   const [, setLocation] = useLocation();

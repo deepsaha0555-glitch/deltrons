@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import { useLocation } from "wouter";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { signOut, onAuthStateChanged, User } from "firebase/auth";
+import { signOut, onAuthStateChanged } from "firebase/auth";
+import type { User } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { useToast } from "@/hooks/use-toast";
-import logo from "@assets/generated_images/Autoreport_AI_circular_logo_3fcdd3c3.png";
+import logo from "@assets/logo.png";
 import { LogOut, Upload, BarChart3, FileText } from "lucide-react";
 
 export default function Dashboard() {

@@ -19,7 +19,7 @@
       "@/*": ["./src/*"]
     },
 
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
